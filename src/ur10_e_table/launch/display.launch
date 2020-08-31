@@ -1,6 +1,6 @@
 <launch>
 
-  <arg name="model" default="$(find ur10_e_table)/urdf/ur10_tower.urdf"/>
+  <arg name="model" default="$(find ur10_e_table)/urdf/ur10e_rot.urdf"/>
   <arg name="gui" default="true" />
   <arg name="rvizconfig" default="$(find ur10_e_table)/rviz/urdf.rviz" />
 

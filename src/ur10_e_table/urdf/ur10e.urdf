@@ -51,7 +51,7 @@
   <joint name="shoulder_pan_joint" type="revolute">
     <parent link="base_link"/>
     <child link="shoulder_link"/>
-    <origin rpy="0.0 0.0 -3.14159265359" xyz="0.0 0.0 0.181"/>
+    <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.181"/>
     <axis xyz="0 0 1"/>
     <limit effort="330.0" lower="-6.28318530718" upper="6.28318530718" velocity="3.14"/>
     <dynamics damping="0.0" friction="0.0"/>
@@ -220,7 +220,7 @@
     <parent link="wrist_3_link"/>
     <child link="ee_link"/>
     <!-- <origin rpy="0.0 0.0 1.57079632679" xyz="0.0 0.117 0.0"/> -->
-    <origin rpy="-1.5707963267 0.0 0.0" xyz="0.0 0.117 0.0"/>
+    <origin rpy="0.0 0.0 1.57079632679" xyz="0.0 0.117 0.0"/>
   </joint>
   <link name="ee_link">
     <collision>
