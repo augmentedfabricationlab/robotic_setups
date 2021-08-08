@@ -8,4 +8,4 @@ moveit_setup_assistant_config:
   CONFIG:
     author_name: Julian Trummer
     author_email: julian.trummer@tum.de
-    generated_timestamp: 1626967668
+    generated_timestamp: 1628428888
